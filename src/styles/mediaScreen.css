@@ -1,0 +1,66 @@
+@media (max-width: 920px) {
+    .ui.modal.dialog_form {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        overflow: auto;
+        padding: 30px 15px;
+    }
+
+    .list_item {
+        margin: 20px;
+    }
+
+    .ui.modal.dialog_form .content {
+        display: initial;
+        height: initial;
+    }
+
+    .ui.modal.dialog_form .actions {
+        margin: 20px 0px;
+        display: initial;
+    }
+
+    .dialog_buttons > button {
+        margin: 20px;
+    }
+
+    #dialog_buttons {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .dialog_message > div {
+        font-size: 14px;
+    }
+
+    .dialog_title {
+        font-size: 18px;
+    }
+
+    .product_list {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 490px) {
+    .product_list {
+        justify-content: center;
+    }
+
+    .list_item {
+        width: 100%;
+        height: 220px;
+    }
+
+    #dialog_buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dialog_buttons > button {
+        margin: 10px 0px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+.options_list ul li {
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+#fields_input > div {
+    margin: 25px 0px;
+}
+#fields_input .ui.input{
+    width: 100%;
+}
+
+#fields_input > div > div:first-child {
+   padding-bottom: 10px;
+}
+
+.required, .error_field {
+    color: red;
+}
+
+.error_field {
+    position: absolute;
+    margin-top: 5px;
+}

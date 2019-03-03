@@ -1,0 +1,35 @@
+.list_item {
+    width: 180px;
+    height: 120px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list_item:hover {
+    border: 2px solid limegreen;
+    background: #00619029;
+}
+
+.list_title {
+    font-size: 16px;
+    text-align: center;
+    color: #609eef;
+}
+
+.list_cost {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.list_item.active_element {
+    border-color: #f2711c;
+    background: #e6ddc7;
+}
+

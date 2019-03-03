@@ -1,0 +1,59 @@
+.ui.modal.dialog_form {
+    width: 750px;
+    height: 500px;
+    padding: 30px;
+}
+
+.ui.modal.dialog_form > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dialog_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.ui.modal.dialog_form .content {
+    height: 70%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ui.modal.dialog_form .actions {
+    padding-top: 30px ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ui.modal .close.icon {
+    right: 10px;
+    top: 10px;
+    opacity: 0.8;
+    position: absolute;
+    cursor: pointer;
+}
+
+.ui.modal .close.icon svg {
+    fill: rgba(0, 0, 0, 0.4);
+}
+
+.ui.modal .close.icon:hover {
+    opacity: 1;
+}
+
+.dialog_message > div {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: lightgrey;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-align: left;
+}
